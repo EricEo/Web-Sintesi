@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link type="text/css" href="css/registro.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a onMouseout="this.style.color='white'" href="index.html">INICIO</a>
+            <a onMouseout="this.style.color='white'" href="Crear cuenta.html">CREAR CUENTA</a>
+        </nav>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 20 500 150"
+                preserveAspectRatio="none" style="height: 70%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #5c5a56;"></path>
+            </svg></div>
+    </header>
+
+    <div id="registrar">
+    </div>
+
+    <div id="envoltura">
+        <div id="contenedor">
+
+            <div id="cabecera">
+                <img src="img/logos/logopng.png" height="100px" width="100px">
+            </div>
+            <div id="cuerpo">
+                <form id="form-login" action="" method="post" autocomplete="off">
+                    <p><label>Usuario o gmail:</label></p>
+                    <input name="usuario" type="text" id="usuario" placeholder="Ingresa Usuario" autofocus=""
+                        required=""></p>
+
+                    <p><label>Contraseña:</label></p>
+                    <input name="contrasenia" type="password" id="contrasenia" placeholder="Ingresa Password"
+                        required=""></p>
+
+                    <p id="bot"><input type="submit" id="submit" name="submit" value="Ingresar" class="boton"></p>
+                </form>
+            </div>
+
+
+            <div id="pie"> &copy; TECNO SERVICE</div>
+        </div>
+    </div>
+</body>
